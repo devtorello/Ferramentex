@@ -1,0 +1,181 @@
+@import 'variables';
+@import "~bootstrap/scss/bootstrap.scss";
+
+/* Todo o conteúdo do body */
+body {
+  background: #B5B5B5 !important;
+}
+
+/* Todo o conteúdo da header */
+header {
+  background: #343434;
+  height: 80px;
+}
+
+footer {
+  background: #343434;
+  height: 70px;
+  width: 100%;
+  bottom: 0;
+  color: #b5b5b5 !important;
+}
+
+p {
+  font-size: 15px;
+}
+
+a {
+  font-style: none !important;
+}
+
+/* Cor da navbar */
+.navbar {
+  background: #222222 !important;
+  border-radius: 0px !important;
+  font-size: 15px;
+}
+
+/* Formatação do logo */
+.navbar .navbar-brand { 
+  font-size: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Primeira parte do logo */
+.ferramen {
+  color: #FFDE30 !important; 
+}
+
+/* Segunda parte do logo */
+.tex {
+  color: #fff !important;
+  margin-left: -8px;
+}
+
+/* Box do login */
+.box {
+  height: 355px;
+  background: #e8e8e8 !important;
+  margin-top: 50px;
+  box-shadow: 3px;
+}
+
+/* Box da recuperação de senha */
+.box-recu {
+  background: #e8e8e8 !important;
+  height: 285px;
+  margin-top: 60px;
+  box-shadow: 3px;
+}
+
+/* Título do box de login */
+.text-login {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #cfcfcf;   
+}
+
+/* Sub-titulo do box de login */
+.text-sublogin {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-size: 15px;
+}
+
+/* Link para ir pra recuperação de senha */
+.recu-senha {
+  font-size: 14px;
+  margin-top: -20px;
+  padding-bottom: 10px;
+  color: #828282;
+}
+
+/* Hover do link para ir pra recuperação de senha */
+.recu-senha:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+
+/* Formatação dos cards de conteúdo */
+.card {
+  border: 1px solid #9c9c9c !important;
+  background: #cccccc !important;
+  width: 100%;
+  margin-bottom: 25px;
+  font-size: 16px !important;
+}
+
+/* Formatação da header dos cards */
+.card .card-header {
+  background-color: #343434 !important;
+  color: #b5b5b5 !important;
+  font-size: 20px !important;
+}
+
+/* Formatação do body do card */
+.card .card-body {
+  background: #e8e8e8 !important;
+  border-radius: 5px;
+  font-size: 16px !important;
+}
+
+/* Formatação do menu side bark */
+.list-group .list-group-item {
+  background: #e8e8e8 !important;
+}
+
+/* Cor da header da tabela */
+.dark {
+  background: #343434 !important;
+  color: #b5b5b5 !important;
+  border: none !important;
+}
+
+.radius-butcx {
+  border-top-right-radius: 4px !important;
+  border-bottom-right-radius: 4px !important;
+}
+
+.form-control:focus {
+  color: #343434 !important;
+  background-color: #fff;
+  border-color: #e0a800 !important;
+  outline: 0;
+  box-shadow: 0 0 0 0 !important;
+}
+
+.list-group-item {
+  color: #7F753E !important;
+}
+
+.list-group-item:hover {
+  color: #CCB226 !important;
+}
+
+.btn-outline-warning {
+  color: #FFDE30 !important; 
+  border-color: #FFDE30 !important;
+}
+
+.table-bordered {
+  border: 1px solid #343434 !important;
+}
+
+.form-control {
+  font-size: 16px !important;
+}
+
+.btn {
+  font-size: 16px !important;
+}
+
+.btn-edit {
+  height: 45px !important; 
+}
+
+.jumbotron {
+  background: #e8e8e8 !important;
+}
